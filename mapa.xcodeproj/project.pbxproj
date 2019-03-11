@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA7658722362CB700CE2AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7658622362CB700CE2AB1 /* AppDelegate.m */; };
+		EDA7658A22362CB700CE2AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7658922362CB700CE2AB1 /* ViewController.m */; };
+		EDA7658D22362CB700CE2AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA7658B22362CB700CE2AB1 /* Main.storyboard */; };
+		EDA7658F22362CB800CE2AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA7658E22362CB800CE2AB1 /* Assets.xcassets */; };
+		EDA7659222362CB800CE2AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA7659022362CB800CE2AB1 /* LaunchScreen.storyboard */; };
+		EDA7659522362CB900CE2AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7659422362CB900CE2AB1 /* main.m */; };
+		EDA7659F22362CB900CE2AB1 /* mapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7659E22362CB900CE2AB1 /* mapaTests.m */; };
+		EDA765AA22362CB900CE2AB1 /* mapaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA765A922362CB900CE2AB1 /* mapaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA7659B22362CB900CE2AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA7657A22362CB600CE2AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA7658122362CB700CE2AB1;
+			remoteInfo = mapa;
+		};
+		EDA765A622362CB900CE2AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA7657A22362CB600CE2AB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA7658122362CB700CE2AB1;
+			remoteInfo = mapa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA7658222362CB700CE2AB1 /* mapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA7658522362CB700CE2AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA7658622362CB700CE2AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA7658822362CB700CE2AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDA7658922362CB700CE2AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDA7658C22362CB700CE2AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA7658E22362CB800CE2AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA7659122362CB800CE2AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA7659322362CB800CE2AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA7659422362CB900CE2AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA7659A22362CB900CE2AB1 /* mapaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA7659E22362CB900CE2AB1 /* mapaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapaTests.m; sourceTree = "<group>"; };
+		EDA765A022362CB900CE2AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA765A522362CB900CE2AB1 /* mapaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA765A922362CB900CE2AB1 /* mapaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapaUITests.m; sourceTree = "<group>"; };
+		EDA765AB22362CB900CE2AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA7657F22362CB700CE2AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7659722362CB900CE2AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA765A222362CB900CE2AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA7657922362CB600CE2AB1 = {
+			isa = PBXGroup;
+			children = (
+				EDA7658422362CB700CE2AB1 /* mapa */,
+				EDA7659D22362CB900CE2AB1 /* mapaTests */,
+				EDA765A822362CB900CE2AB1 /* mapaUITests */,
+				EDA7658322362CB700CE2AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA7658322362CB700CE2AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7658222362CB700CE2AB1 /* mapa.app */,
+				EDA7659A22362CB900CE2AB1 /* mapaTests.xctest */,
+				EDA765A522362CB900CE2AB1 /* mapaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA7658422362CB700CE2AB1 /* mapa */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7658522362CB700CE2AB1 /* AppDelegate.h */,
+				EDA7658622362CB700CE2AB1 /* AppDelegate.m */,
+				EDA7658822362CB700CE2AB1 /* ViewController.h */,
+				EDA7658922362CB700CE2AB1 /* ViewController.m */,
+				EDA7658B22362CB700CE2AB1 /* Main.storyboard */,
+				EDA7658E22362CB800CE2AB1 /* Assets.xcassets */,
+				EDA7659022362CB800CE2AB1 /* LaunchScreen.storyboard */,
+				EDA7659322362CB800CE2AB1 /* Info.plist */,
+				EDA7659422362CB900CE2AB1 /* main.m */,
+			);
+			path = mapa;
+			sourceTree = "<group>";
+		};
+		EDA7659D22362CB900CE2AB1 /* mapaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7659E22362CB900CE2AB1 /* mapaTests.m */,
+				EDA765A022362CB900CE2AB1 /* Info.plist */,
+			);
+			path = mapaTests;
+			sourceTree = "<group>";
+		};
+		EDA765A822362CB900CE2AB1 /* mapaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA765A922362CB900CE2AB1 /* mapaUITests.m */,
+				EDA765AB22362CB900CE2AB1 /* Info.plist */,
+			);
+			path = mapaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA7658122362CB700CE2AB1 /* mapa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA765AE22362CB900CE2AB1 /* Build configuration list for PBXNativeTarget "mapa" */;
+			buildPhases = (
+				EDA7657E22362CB700CE2AB1 /* Sources */,
+				EDA7657F22362CB700CE2AB1 /* Frameworks */,
+				EDA7658022362CB700CE2AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mapa;
+			productName = mapa;
+			productReference = EDA7658222362CB700CE2AB1 /* mapa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA7659922362CB900CE2AB1 /* mapaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA765B122362CB900CE2AB1 /* Build configuration list for PBXNativeTarget "mapaTests" */;
+			buildPhases = (
+				EDA7659622362CB900CE2AB1 /* Sources */,
+				EDA7659722362CB900CE2AB1 /* Frameworks */,
+				EDA7659822362CB900CE2AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA7659C22362CB900CE2AB1 /* PBXTargetDependency */,
+			);
+			name = mapaTests;
+			productName = mapaTests;
+			productReference = EDA7659A22362CB900CE2AB1 /* mapaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA765A422362CB900CE2AB1 /* mapaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA765B422362CB900CE2AB1 /* Build configuration list for PBXNativeTarget "mapaUITests" */;
+			buildPhases = (
+				EDA765A122362CB900CE2AB1 /* Sources */,
+				EDA765A222362CB900CE2AB1 /* Frameworks */,
+				EDA765A322362CB900CE2AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA765A722362CB900CE2AB1 /* PBXTargetDependency */,
+			);
+			name = mapaUITests;
+			productName = mapaUITests;
+			productReference = EDA765A522362CB900CE2AB1 /* mapaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA7657A22362CB600CE2AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					EDA7658122362CB700CE2AB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EDA7659922362CB900CE2AB1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EDA7658122362CB700CE2AB1;
+					};
+					EDA765A422362CB900CE2AB1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EDA7658122362CB700CE2AB1;
+					};
+				};
+			};
+			buildConfigurationList = EDA7657D22362CB600CE2AB1 /* Build configuration list for PBXProject "mapa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA7657922362CB600CE2AB1;
+			productRefGroup = EDA7658322362CB700CE2AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA7658122362CB700CE2AB1 /* mapa */,
+				EDA7659922362CB900CE2AB1 /* mapaTests */,
+				EDA765A422362CB900CE2AB1 /* mapaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA7658022362CB700CE2AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7659222362CB800CE2AB1 /* LaunchScreen.storyboard in Resources */,
+				EDA7658F22362CB800CE2AB1 /* Assets.xcassets in Resources */,
+				EDA7658D22362CB700CE2AB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7659822362CB900CE2AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA765A322362CB900CE2AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA7657E22362CB700CE2AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7658A22362CB700CE2AB1 /* ViewController.m in Sources */,
+				EDA7659522362CB900CE2AB1 /* main.m in Sources */,
+				EDA7658722362CB700CE2AB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7659622362CB900CE2AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7659F22362CB900CE2AB1 /* mapaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA765A122362CB900CE2AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA765AA22362CB900CE2AB1 /* mapaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA7659C22362CB900CE2AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA7658122362CB700CE2AB1 /* mapa */;
+			targetProxy = EDA7659B22362CB900CE2AB1 /* PBXContainerItemProxy */;
+		};
+		EDA765A722362CB900CE2AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA7658122362CB700CE2AB1 /* mapa */;
+			targetProxy = EDA765A622362CB900CE2AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA7658B22362CB700CE2AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA7658C22362CB700CE2AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA7659022362CB800CE2AB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA7659122362CB800CE2AB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA765AC22362CB900CE2AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDA765AD22362CB900CE2AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA765AF22362CB900CE2AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mapa.com.mapa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA765B022362CB900CE2AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mapa.com.mapa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDA765B222362CB900CE2AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mapa.com.mapaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapa.app/mapa";
+			};
+			name = Debug;
+		};
+		EDA765B322362CB900CE2AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mapa.com.mapaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapa.app/mapa";
+			};
+			name = Release;
+		};
+		EDA765B522362CB900CE2AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mapa.com.mapaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mapa;
+			};
+			name = Debug;
+		};
+		EDA765B622362CB900CE2AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mapaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mapa.com.mapaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mapa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA7657D22362CB600CE2AB1 /* Build configuration list for PBXProject "mapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA765AC22362CB900CE2AB1 /* Debug */,
+				EDA765AD22362CB900CE2AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA765AE22362CB900CE2AB1 /* Build configuration list for PBXNativeTarget "mapa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA765AF22362CB900CE2AB1 /* Debug */,
+				EDA765B022362CB900CE2AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA765B122362CB900CE2AB1 /* Build configuration list for PBXNativeTarget "mapaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA765B222362CB900CE2AB1 /* Debug */,
+				EDA765B322362CB900CE2AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA765B422362CB900CE2AB1 /* Build configuration list for PBXNativeTarget "mapaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA765B522362CB900CE2AB1 /* Debug */,
+				EDA765B622362CB900CE2AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA7657A22362CB600CE2AB1 /* Project object */;
+}
